@@ -1,0 +1,6 @@
+Instructions on how to build nginx 1.8 on Raspbian, and how to publish the
+resulting package on the sprily repo.  The reason for building our own package
+is that the version of nginx distributed with Raspbian (1.2.x) doesn't support
+the proxying of websockets.
+
+See build-instructions.sh and publish-instructions.sh
